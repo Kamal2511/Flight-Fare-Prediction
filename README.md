@@ -47,4 +47,4 @@
 <p align='center'><img src='https://user-images.githubusercontent.com/31500911/143293225-c64aa83a-38bf-490a-aacf-eb96eb6c7088.png'></p>
 
 <h2>Accuracy Result :</h2>
-<p align='center'><img src='https://user-images.githubusercontent.com/31500911/143293439-07f173a4-5872-4c42-983a-4993b6125276.png'></p>
+<p align='center'><img src='https://user-images.githubusercontent.com/31500911/143366574-c43f5e3b-59df-4353-a70f-9cd37d74bd7c.png'></p>
