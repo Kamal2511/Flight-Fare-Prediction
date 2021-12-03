@@ -46,5 +46,5 @@
 <h2>Model Pipeline :</h2>
 <p align='center'><img src='https://user-images.githubusercontent.com/31500911/143293225-c64aa83a-38bf-490a-aacf-eb96eb6c7088.png'></p>
 
-<h2>Accuracy Result :</h2>
-<p align='center'><img src='https://user-images.githubusercontent.com/31500911/143366574-c43f5e3b-59df-4353-a70f-9cd37d74bd7c.png'></p>
+<h2>Result :</h2>
+<p align='center'><img src='https://user-images.githubusercontent.com/31500911/144676081-2d692d73-1c16-4c5a-a1ef-0ff50ec576b4.png'></p>
