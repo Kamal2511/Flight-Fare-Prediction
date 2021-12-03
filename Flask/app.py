@@ -273,42 +273,30 @@ def predict():
         elif Source == 'Delhi':
             d_Cochin = 0
             d_Delhi = 1
-            d_New_Delhi = 0
-            d_Hyderabad = 0
-            d_Kolkata = 0
-
-        elif Source == 'New_Delhi':
-            d_Cochin = 0
-            d_Delhi = 0
-            d_New_Delhi = 1
             d_Hyderabad = 0
             d_Kolkata = 0
 
         elif Source == 'Hyderabad':
             d_Cochin = 0
             d_Delhi = 0
-            d_New_Delhi = 0
             d_Hyderabad = 1
             d_Kolkata = 0
 
         elif Source == 'Kolkata':
             d_Cochin = 0
             d_Delhi = 0
-            d_New_Delhi = 0
             d_Hyderabad = 0
             d_Kolkata = 1
 
         else:
             d_Cochin = 0
             d_Delhi = 0
-            d_New_Delhi = 0
             d_Hyderabad = 0
             d_Kolkata = 0
 
         # print(
         #     d_Cochin,
         #     d_Delhi,
-        #     d_New_Delhi,
         #     d_Hyderabad,
         #     d_Kolkata
         # )
@@ -322,7 +310,7 @@ def predict():
         #    'Airline_Trujet', 'Airline_Vistara', 'Airline_Vistara Premium economy',
         #    'Source_Chennai', 'Source_Delhi', 'Source_Kolkata', 'Source_Mumbai',
         #    'Destination_Cochin', 'Destination_Delhi', 'Destination_Hyderabad',
-        #    'Destination_Kolkata', 'Destination_New Delhi']
+        #    'Destination_Kolkata']
 
         prediction = model.predict([[
             Total_stops,
@@ -352,8 +340,7 @@ def predict():
             d_Cochin,
             d_Delhi,
             d_Hyderabad,
-            d_Kolkata,
-            d_New_Delhi
+            d_Kolkata
         ]])
 
         output = round(prediction[0], 2)
